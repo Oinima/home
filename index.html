@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oinima Ltd - Online Marketing </title>
-    <style>
+   <style>
         body {
             background-color: blue;
             font-family: Arial, sans-serif;
+            margin: 0; /* Added */
+            padding: 0; /* Added */
+            display: flex; /* Added */
+            flex-direction: column; /* Added */
+            align-items: center; /* Added */
+            justify-content: space-between; /* Added */
+            min-height: 100vh; /* Added */
         }
         .container {
             max-width: 1200px;
-            margin: 0 auto;
+            width: 100%; /* Changed */
             padding: 20px;
         }
         .header {
@@ -19,17 +26,18 @@
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 20px;
+            color: white;
         }
         .nav {
             display: flex;
             justify-content: space-between;
-            background-color:grey;
+            background-color: grey;
             padding: 20px;
         }
         .nav a {
             text-decoration: none;
             color: #333;
-            margin-right: 50px;
+            margin-right: 20px; /* Adjusted */
         }
         .nav a:hover {
             color: #007bff;
@@ -41,6 +49,16 @@
         .item img {
             width: 250px;
             height: 220px;
+            display: block; /* Added */
+            margin: 0 auto; /* Added */
+        }
+        footer {
+            background-color: grey;
+            text-align: center;
+            color: white; /* Added */
+            padding: 20px; /* Added */
+            width: 100%; /* Added */
+            margin-top: auto; /* Added */
         }
     </style>
 </head>
