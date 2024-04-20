@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"  # Example: Specify the package ecosystem (e.g., npm, composer, pip)
+    directory: "/"            # Example: Location of package manifests (e.g., "/")
+    schedule:
+      interval: "weekly"      # Example: Update interval (e.g., "weekly", "monthly")
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
